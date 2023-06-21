@@ -10,8 +10,3 @@ UWorkLocationComponent::UWorkLocationComponent(const FObjectInitializer& ObjectI
 	bIsOccupied = false;
 }
 
-//UWorkLocationComponent::~UWorkLocationComponent()
-//{
-//	// Empty, but required because we don't want to have to include LightMap.h and ShadowMap.h in WorkLocationComponent.h, and they are required to compile FLightMapRef and FShadowMapRef
-//}
-
