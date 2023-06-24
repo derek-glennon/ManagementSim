@@ -8,5 +8,6 @@ UWorkLocationComponent::UWorkLocationComponent(const FObjectInitializer& ObjectI
 {
 	bIsEnabled = true;
 	bIsOccupied = false;
+	WorkerCharacter = nullptr;
 }
 

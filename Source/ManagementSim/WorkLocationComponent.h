@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/BoxComponent.h"
+#include "WorkerCharacter.h"
 #include "WorkLocationComponent.generated.h"
 
 class UWorkLocationComponent;
@@ -23,5 +24,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = WorkerLocation)
 	uint32 bIsOccupied : 1;
-	
+
+	/** Please add a variable description */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = WorkerLocation)
+	TObjectPtr<AWorkerCharacter> WorkerCharacter;
+
 };
